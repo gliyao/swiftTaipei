@@ -13,6 +13,7 @@
 		8A4BEFC519DE3EF500DBFEC7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4BEFC319DE3EF500DBFEC7 /* LaunchScreen.xib */; };
 		8A4BEFD119DE3EF500DBFEC7 /* SimpleReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BEFD019DE3EF500DBFEC7 /* SimpleReaderTests.swift */; };
 		8A4BEFE319DE511C00DBFEC7 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BEFE219DE511C00DBFEC7 /* AboutViewController.swift */; };
+		8A4BEFE819DE88A900DBFEC7 /* SMAuthor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BEFE719DE88A900DBFEC7 /* SMAuthor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,8 @@
 		8A4BEFCF19DE3EF500DBFEC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A4BEFD019DE3EF500DBFEC7 /* SimpleReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleReaderTests.swift; sourceTree = "<group>"; };
 		8A4BEFE219DE511C00DBFEC7 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		8A4BEFE519DE568400DBFEC7 /* FirstPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FirstPlayground.playground; sourceTree = "<group>"; };
+		8A4BEFE719DE88A900DBFEC7 /* SMAuthor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMAuthor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,7 @@
 		8A4BEFB519DE3EF500DBFEC7 /* SimpleReader */ = {
 			isa = PBXGroup;
 			children = (
+				8A4BEFE419DE565F00DBFEC7 /* Playground */,
 				8A4BEFB819DE3EF500DBFEC7 /* AppDelegate.swift */,
 				8A4BEFC119DE3EF500DBFEC7 /* Images.xcassets */,
 				8A4BEFC319DE3EF500DBFEC7 /* LaunchScreen.xib */,
@@ -133,6 +137,7 @@
 		8A4BEFDC19DE505C00DBFEC7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8A4BEFE719DE88A900DBFEC7 /* SMAuthor.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -174,6 +179,14 @@
 				8A4BEFBE19DE3EF500DBFEC7 /* Main.storyboard */,
 			);
 			path = storyboard;
+			sourceTree = "<group>";
+		};
+		8A4BEFE419DE565F00DBFEC7 /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				8A4BEFE519DE568400DBFEC7 /* FirstPlayground.playground */,
+			);
+			path = Playground;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +291,7 @@
 			files = (
 				8A4BEFE319DE511C00DBFEC7 /* AboutViewController.swift in Sources */,
 				8A4BEFB919DE3EF500DBFEC7 /* AppDelegate.swift in Sources */,
+				8A4BEFE819DE88A900DBFEC7 /* SMAuthor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

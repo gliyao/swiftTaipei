@@ -18,7 +18,7 @@ class AboutViewController: UIViewController {
         super.viewDidLoad()
         
         // 1. Change author name to your name
-        authorNameLabel.text = "Liyao Chen"
+//        authorNameLabel.text = "Liyao Chen"
         
         // 2. Add a border to authorImageView
         authorImageView.layer.borderWidth = 2
@@ -31,5 +31,9 @@ class AboutViewController: UIViewController {
         let halfWidth = CGRectGetWidth(authorImageView.bounds) / 2;
         authorImageView.layer.cornerRadius = halfWidth
         authorImageView.clipsToBounds = true
+        
+        // 5. Generate author from Class SMAuthor with your own name
+        var me = SMAuthor(firstName: "Liyao", lastName: "Chen")
+        authorNameLabel.text = me.fullName()
     }
 }
