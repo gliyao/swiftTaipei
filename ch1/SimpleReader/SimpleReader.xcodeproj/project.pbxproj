@@ -8,12 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		8A4BEFB919DE3EF500DBFEC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BEFB819DE3EF500DBFEC7 /* AppDelegate.swift */; };
-		8A4BEFBB19DE3EF500DBFEC7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BEFBA19DE3EF500DBFEC7 /* FirstViewController.swift */; };
-		8A4BEFBD19DE3EF500DBFEC7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BEFBC19DE3EF500DBFEC7 /* SecondViewController.swift */; };
 		8A4BEFC019DE3EF500DBFEC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A4BEFBE19DE3EF500DBFEC7 /* Main.storyboard */; };
 		8A4BEFC219DE3EF500DBFEC7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A4BEFC119DE3EF500DBFEC7 /* Images.xcassets */; };
 		8A4BEFC519DE3EF500DBFEC7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4BEFC319DE3EF500DBFEC7 /* LaunchScreen.xib */; };
 		8A4BEFD119DE3EF500DBFEC7 /* SimpleReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BEFD019DE3EF500DBFEC7 /* SimpleReaderTests.swift */; };
+		8A4BEFE319DE511C00DBFEC7 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BEFE219DE511C00DBFEC7 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,14 +29,13 @@
 		8A4BEFB319DE3EF500DBFEC7 /* SimpleReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A4BEFB719DE3EF500DBFEC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A4BEFB819DE3EF500DBFEC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8A4BEFBA19DE3EF500DBFEC7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		8A4BEFBC19DE3EF500DBFEC7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		8A4BEFBF19DE3EF500DBFEC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A4BEFC119DE3EF500DBFEC7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8A4BEFC419DE3EF500DBFEC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8A4BEFCA19DE3EF500DBFEC7 /* SimpleReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A4BEFCF19DE3EF500DBFEC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A4BEFD019DE3EF500DBFEC7 /* SimpleReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleReaderTests.swift; sourceTree = "<group>"; };
+		8A4BEFE219DE511C00DBFEC7 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,11 +78,13 @@
 			isa = PBXGroup;
 			children = (
 				8A4BEFB819DE3EF500DBFEC7 /* AppDelegate.swift */,
-				8A4BEFBA19DE3EF500DBFEC7 /* FirstViewController.swift */,
-				8A4BEFBC19DE3EF500DBFEC7 /* SecondViewController.swift */,
-				8A4BEFBE19DE3EF500DBFEC7 /* Main.storyboard */,
 				8A4BEFC119DE3EF500DBFEC7 /* Images.xcassets */,
 				8A4BEFC319DE3EF500DBFEC7 /* LaunchScreen.xib */,
+				8A4BEFDE19DE505C00DBFEC7 /* View */,
+				8A4BEFDA19DE505C00DBFEC7 /* Controller */,
+				8A4BEFDC19DE505C00DBFEC7 /* Model */,
+				8A4BEFDB19DE505C00DBFEC7 /* Helper */,
+				8A4BEFDD19DE505C00DBFEC7 /* Vendor */,
 				8A4BEFB619DE3EF500DBFEC7 /* Supporting Files */,
 			);
 			path = SimpleReader;
@@ -113,6 +113,67 @@
 				8A4BEFCF19DE3EF500DBFEC7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A4BEFDA19DE505C00DBFEC7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8A4BEFE219DE511C00DBFEC7 /* AboutViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A4BEFDB19DE505C00DBFEC7 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		8A4BEFDC19DE505C00DBFEC7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A4BEFDD19DE505C00DBFEC7 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		8A4BEFDE19DE505C00DBFEC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8A4BEFE119DE50A500DBFEC7 /* storyboard */,
+				8A4BEFDF19DE505C00DBFEC7 /* cell */,
+				8A4BEFE019DE505C00DBFEC7 /* xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A4BEFDF19DE505C00DBFEC7 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		8A4BEFE019DE505C00DBFEC7 /* xib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = xib;
+			sourceTree = "<group>";
+		};
+		8A4BEFE119DE50A500DBFEC7 /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				8A4BEFBE19DE3EF500DBFEC7 /* Main.storyboard */,
+			);
+			path = storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,9 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A4BEFBD19DE3EF500DBFEC7 /* SecondViewController.swift in Sources */,
+				8A4BEFE319DE511C00DBFEC7 /* AboutViewController.swift in Sources */,
 				8A4BEFB919DE3EF500DBFEC7 /* AppDelegate.swift in Sources */,
-				8A4BEFBB19DE3EF500DBFEC7 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +306,7 @@
 				8A4BEFBF19DE3EF500DBFEC7 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		8A4BEFC319DE3EF500DBFEC7 /* LaunchScreen.xib */ = {
