@@ -25,6 +25,8 @@ class ArticleViewController: UIViewController, UIWebViewDelegate {
         webView.loadRequest(request)
     }
     
+    // MARK: -UIWebView Delegate
+    
     func webViewDidStartLoad(webView: UIWebView){
         indicator.startAnimating()
     }

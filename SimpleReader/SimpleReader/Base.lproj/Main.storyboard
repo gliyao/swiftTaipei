@@ -330,16 +330,16 @@
                         <subviews>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BKm-i2-8pW" userLabel="webView">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <outlet property="delegate" destination="rjE-UR-imt" id="htv-2x-LXP"/>
                                 </connections>
                             </webView>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="hbd-5x-reb" userLabel="indicator">
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="hbd-5x-reb" userLabel="indicator">
                                 <rect key="frame" x="282" y="281" width="37" height="37"/>
+                                <color key="color" red="0.71372549019999998" green="0.71372549019999998" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
                             </activityIndicatorView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="BKm-i2-8pW" firstAttribute="top" secondItem="CWu-H8-1qw" secondAttribute="top" id="4yG-HR-aVG"/>
                             <constraint firstItem="BKm-i2-8pW" firstAttribute="leading" secondItem="CWu-H8-1qw" secondAttribute="leading" id="MvI-57-UEG"/>
