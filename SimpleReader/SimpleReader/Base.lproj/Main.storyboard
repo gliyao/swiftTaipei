@@ -196,7 +196,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Tl-IK-tdW">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -257,7 +257,7 @@
         <scene sceneID="xpm-Dy-vAo">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fMU-RJ-b7k" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="setting" id="P2O-cU-C9d"/>
+                    <tabBarItem key="tabBarItem" title="setting" image="settings" id="P2O-cU-C9d"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="jbb-u7-hPm">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -322,7 +322,7 @@
         <scene sceneID="XKE-ag-Hej">
             <objects>
                 <navigationController id="Sni-bn-93o" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="news" id="aw7-O9-P5Q"/>
+                    <tabBarItem key="tabBarItem" title="news" image="news" id="aw7-O9-P5Q"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="WVy-co-msJ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -338,5 +338,7 @@
     </scenes>
     <resources>
         <image name="avatar" width="170" height="170"/>
+        <image name="news" width="25" height="25"/>
+        <image name="settings" width="25" height="25"/>
     </resources>
 </document>
