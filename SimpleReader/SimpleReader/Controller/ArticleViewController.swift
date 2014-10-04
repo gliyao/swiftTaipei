@@ -8,24 +8,32 @@
 
 import UIKit
 
-class ArticleViewController: UIViewController {
+class ArticleViewController: UIViewController, UIWebViewDelegate {
     var snippet : String = ""
     var web_url : String = ""
+    @IBOutlet weak var webView: UIWebView!
+    @IBOutlet weak var indicator: UIActivityIndicatorView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         println("We got snippet = \(snippet)")
         println("We got web_url = \(web_url)")
+        
+        let url = NSURL.URLWithString(web_url)
+        let request = NSURLRequest(URL: url)
+        webView.loadRequest(request)
     }
     
-    func setSnippet(snippet : String)
-    {
-        self.snippet = snippet
+    func webViewDidStartLoad(webView: UIWebView){
+        indicator.startAnimating()
     }
     
-    func setWebUrl(web_url : String)
-    {
-        self.web_url = web_url
+    func webViewDidFinishLoad(webView: UIWebView) {
+        indicator.stopAnimating()
+    }
+    
+    func webView(webView: UIWebView, didFailLoadWithError error: NSError) {
+        indicator.stopAnimating()
     }
 }

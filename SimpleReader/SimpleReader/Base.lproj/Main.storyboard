@@ -327,9 +327,33 @@
                     <view key="view" contentMode="scaleToFill" id="CWu-H8-1qw">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BKm-i2-8pW" userLabel="webView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="delegate" destination="rjE-UR-imt" id="htv-2x-LXP"/>
+                                </connections>
+                            </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="hbd-5x-reb" userLabel="indicator">
+                                <rect key="frame" x="282" y="281" width="37" height="37"/>
+                            </activityIndicatorView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BKm-i2-8pW" firstAttribute="top" secondItem="CWu-H8-1qw" secondAttribute="top" id="4yG-HR-aVG"/>
+                            <constraint firstItem="BKm-i2-8pW" firstAttribute="leading" secondItem="CWu-H8-1qw" secondAttribute="leading" id="MvI-57-UEG"/>
+                            <constraint firstAttribute="centerY" secondItem="hbd-5x-reb" secondAttribute="centerY" id="OFc-vh-qGT"/>
+                            <constraint firstAttribute="centerX" secondItem="hbd-5x-reb" secondAttribute="centerX" id="See-OP-eC6"/>
+                            <constraint firstAttribute="trailing" secondItem="BKm-i2-8pW" secondAttribute="trailing" id="Ujt-Mj-J48"/>
+                            <constraint firstAttribute="bottom" secondItem="BKm-i2-8pW" secondAttribute="bottom" id="tPR-Ob-jdN"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Article View Controller" id="P70-cM-Gn8"/>
+                    <connections>
+                        <outlet property="indicator" destination="hbd-5x-reb" id="fxA-Vr-fSL"/>
+                        <outlet property="webView" destination="BKm-i2-8pW" id="Tj1-qS-LP1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H6v-il-JE2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
