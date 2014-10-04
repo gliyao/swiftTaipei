@@ -36,6 +36,28 @@ class ArticleListViewController: UITableViewController
         // Log doc.count make sure we read JSON file correctly.
         println("We have \(docs.count) articles.")
     }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+
+        if(segue.identifier == "openArticle")
+        {
+            // Finding source cell and its indexPath
+            var cell = sender as UITableViewCell
+            var indexPath = self.tableView .indexPathForCell(cell)!
+
+            // Copy fetch article we do it before (in cellForRowAtIndexPath)
+            var article = docs[indexPath.row] as NSDictionary
+            var snippet = article["snippet"] as String
+            var web_url = article["web_url"] as String
+            var pub_date = article["pub_date"] as String
+
+            
+            // Pass param for ArticleViewController
+            var vc = segue.destinationViewController as ArticleViewController
+            vc.snippet = snippet
+            vc.web_url = web_url
+        }
+    }
 
     // MARK: Delegate Pattern
     // MARK: - Table view data source
@@ -56,13 +78,13 @@ class ArticleListViewController: UITableViewController
         var cell : UITableViewCell = tableView .dequeueReusableCellWithIdentifier(kCellId, forIndexPath: indexPath) as UITableViewCell
         
         // Configure cell with docs dat
-        // 1. Get target doc in docs with indexPath
-        var doc : NSDictionary = docs[indexPath.row] as NSDictionary
+        // 1. Get target article in docs with indexPath
+        var article = docs[indexPath.row] as NSDictionary
         
         // 2. Fectch each key-value we want (You may try other fields
-        var snippet = doc["snippet"] as String
-        var web_url = doc["web_url"] as String
-        var pub_date = doc["pub_date"] as String
+        var snippet = article["snippet"] as String
+        var web_url = article["web_url"] as String
+        var pub_date = article["pub_date"] as String
         
         // 3. Setup date in cell
         cell.textLabel?.text = snippet

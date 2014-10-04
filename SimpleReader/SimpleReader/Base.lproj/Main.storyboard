@@ -300,6 +300,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="rjE-UR-imt" kind="show" identifier="openArticle" id="EAj-uX-NwW"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -312,6 +315,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="95Y-1Z-CaT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1555" y="-2770"/>
+        </scene>
+        <!--Article View Controller-->
+        <scene sceneID="VuD-gk-nFG">
+            <objects>
+                <viewController id="rjE-UR-imt" customClass="ArticleViewController" customModule="SimpleReader" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MWA-gU-YgD"/>
+                        <viewControllerLayoutGuide type="bottom" id="Inc-7V-URN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CWu-H8-1qw">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Article View Controller" id="P70-cM-Gn8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H6v-il-JE2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2268" y="-2770"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Rl1-jx-TFd">
