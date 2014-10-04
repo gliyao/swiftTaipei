@@ -17,7 +17,11 @@ class ArticleListViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        // Read JSON file
+        let path = NSBundle.mainBundle().pathForResource("newYorkTimes", ofType: "json")
+        let jsonData = NSData.dataWithContentsOfFile(path!, options: .DataReadingMappedIfSafe, error: nil)
+        var jsonResult: NSDictionary = NSJSONSerialization.JSONObjectWithData(jsonData, options: NSJSONReadingOptions.MutableContainers, error: nil) as NSDictionary
+        var docs : NSArray = jsonResult["docs"] as NSArray
     }
 
     // MARK: - Table view data source
