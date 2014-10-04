@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A1467A919DFC7FE002F6926 /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1467A819DFC7FE002F6926 /* ArticleViewController.swift */; };
 		8A4BEFB919DE3EF500DBFEC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BEFB819DE3EF500DBFEC7 /* AppDelegate.swift */; };
 		8A4BEFC019DE3EF500DBFEC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A4BEFBE19DE3EF500DBFEC7 /* Main.storyboard */; };
 		8A4BEFC219DE3EF500DBFEC7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A4BEFC119DE3EF500DBFEC7 /* Images.xcassets */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A1467A819DFC7FE002F6926 /* ArticleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
 		8A4BEFB319DE3EF500DBFEC7 /* SimpleReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A4BEFB719DE3EF500DBFEC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A4BEFB819DE3EF500DBFEC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 			children = (
 				8A4BEFE219DE511C00DBFEC7 /* AboutViewController.swift */,
 				8A4BEFE919DEDAFC00DBFEC7 /* ArticleListViewController.swift */,
+				8A1467A819DFC7FE002F6926 /* ArticleViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 			files = (
 				8A4BEFE319DE511C00DBFEC7 /* AboutViewController.swift in Sources */,
 				8A4BEFEA19DEDAFC00DBFEC7 /* ArticleListViewController.swift in Sources */,
+				8A1467A919DFC7FE002F6926 /* ArticleViewController.swift in Sources */,
 				8A4BEFB919DE3EF500DBFEC7 /* AppDelegate.swift in Sources */,
 				8A4BEFE819DE88A900DBFEC7 /* SMAuthor.swift in Sources */,
 			);
@@ -494,6 +498,7 @@
 				8A4BEFD619DE3EF500DBFEC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A4BEFD719DE3EF500DBFEC7 /* Build configuration list for PBXNativeTarget "SimpleReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +507,7 @@
 				8A4BEFD919DE3EF500DBFEC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -12,81 +12,85 @@
 
 import UIKit
 
-class ArticleListViewController: UITableViewController {
-
+class ArticleListViewController: UITableViewController
+{
+    let kCellId = "articleCell"
+    
+    
+    // MARK: Properties
+    var docs : NSArray = []
+    
+    // MARK: View controller lifycele
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // Read JSON file
+        let path = NSBundle.mainBundle().pathForResource("newYorkTimes", ofType: "json")
+        let jsonData = NSData.dataWithContentsOfFile(path!, options: .DataReadingMappedIfSafe, error: nil)
+        let jsonResult: NSDictionary = NSJSONSerialization.JSONObjectWithData(jsonData, options: NSJSONReadingOptions.MutableContainers, error: nil) as NSDictionary
+        let response = jsonResult["response"] as NSDictionary
         
+        docs = response["docs"] as NSArray
+        
+        // Log doc.count make sure we read JSON file correctly.
+        println("We have \(docs.count) articles.")
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+
+        if(segue.identifier == "openArticle")
+        {
+            // Finding source cell and its indexPath
+            let cell = sender as UITableViewCell
+            let indexPath = self.tableView .indexPathForCell(cell)!
+
+            // Copy fetch article we do it before (in cellForRowAtIndexPath)
+            let article = docs[indexPath.row] as NSDictionary
+            let snippet = article["snippet"] as String
+            let web_url = article["web_url"] as String
+            let pub_date = article["pub_date"] as String
+
+            
+            // Pass param for ArticleViewController
+            let vc = segue.destinationViewController as ArticleViewController
+            vc.snippet = snippet
+            vc.web_url = web_url
+        }
     }
 
+    // MARK: Delegate Pattern
     // MARK: - Table view data source
-
-    override func numberOfSectionsInTableView(tableView: UITableView!) -> Int {
-        // #warning Potentially incomplete method implementation.
-        // Return the number of sections.
-        return 0
+    
+    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
     }
 
-    override func tableView(tableView: UITableView!, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete method implementation.
-        // Return the number of rows in the section.
-        return 0
+    // Tell tableView how many airtiles we have.
+    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
+        return docs.count
     }
-
-    /*
-    override func tableView(tableView: UITableView!, cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell! {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as UITableViewCell
-
-        // Configure the cell...
-
+    
+    // MARK: - Table view dalegation
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        
+        // Get reuse cell instance in tableView
+        let cell : UITableViewCell = tableView .dequeueReusableCellWithIdentifier(kCellId, forIndexPath: indexPath) as UITableViewCell
+        
+        // Configure cell with docs dat
+        // 1. Get target article in docs with indexPath
+        let article = docs[indexPath.row] as NSDictionary
+        
+        // 2. Fectch each key-value we want (You may try other fields
+        let snippet = article["snippet"] as String
+        let web_url = article["web_url"] as String
+        let pub_date = article["pub_date"] as String
+        
+        // 3. Setup date in cell
+        cell.textLabel?.text = snippet
+//        cell.textLabel?.text = "\(indexPath.row)" // snippet take to many words, try show index at textLabel
+        cell.detailTextLabel?.text = pub_date
+        
         return cell
     }
-    */
-
-    /*
-    // Override to support conditional editing of the table view.
-    override func tableView(tableView: UITableView!, canEditRowAtIndexPath indexPath: NSIndexPath!) -> Bool {
-        // Return NO if you do not want the specified item to be editable.
-        return true
-    }
-    */
-
-    /*
-    // Override to support editing the table view.
-    override func tableView(tableView: UITableView!, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath!) {
-        if editingStyle == .Delete {
-            // Delete the row from the data source
-            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
-        } else if editingStyle == .Insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
-    }
-    */
-
-    /*
-    // Override to support rearranging the table view.
-    override func tableView(tableView: UITableView!, moveRowAtIndexPath fromIndexPath: NSIndexPath!, toIndexPath: NSIndexPath!) {
-
-    }
-    */
-
-    /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(tableView: UITableView!, canMoveRowAtIndexPath indexPath: NSIndexPath!) -> Bool {
-        // Return NO if you do not want the item to be re-orderable.
-        return true
-    }
-    */
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue!, sender: AnyObject!) {
-        // Get the new view controller using [segue destinationViewController].
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
