@@ -32,6 +32,9 @@ class ArticleListViewController: UITableViewController
         var response = jsonResult["response"] as NSDictionary
         
         docs = response["docs"] as NSArray
+        
+        // Log doc.count make sure we read JSON file correctly.
+        println("We have \(docs.count) articles.")
     }
 
     // MARK: Delegate Pattern
