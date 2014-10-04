@@ -12,8 +12,12 @@
 
 import UIKit
 
-class ArticleListViewController: UITableViewController {
-
+class ArticleListViewController: UITableViewController
+{
+    // MARK: Properties
+    var docs : NSArray = []
+    
+    // MARK: View controller lifycele
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -21,15 +25,13 @@ class ArticleListViewController: UITableViewController {
         let path = NSBundle.mainBundle().pathForResource("newYorkTimes", ofType: "json")
         let jsonData = NSData.dataWithContentsOfFile(path!, options: .DataReadingMappedIfSafe, error: nil)
         var jsonResult: NSDictionary = NSJSONSerialization.JSONObjectWithData(jsonData, options: NSJSONReadingOptions.MutableContainers, error: nil) as NSDictionary
-        var docs : NSArray = jsonResult["docs"] as NSArray
+        docs = jsonResult["docs"] as NSArray
     }
 
     // MARK: - Table view data source
 
     override func numberOfSectionsInTableView(tableView: UITableView!) -> Int {
-        // #warning Potentially incomplete method implementation.
-        // Return the number of sections.
-        return 0
+        return 1
     }
 
     override func tableView(tableView: UITableView!, numberOfRowsInSection section: Int) -> Int {
