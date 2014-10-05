@@ -20,11 +20,3 @@ Airtile list page
 3. Configure cell with airtile JSON data
 4. Pass params with segueId
 
-
-## Learning plan
- 
-1. Fetch JSON data with AFNetworking (Project-Bridging-Header)
-2. Share text, URL to social media
-3. Gestures
-4. Customize theme
-5. Size-class
