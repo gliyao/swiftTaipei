@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8A1467A919DFC7FE002F6926 /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1467A819DFC7FE002F6926 /* ArticleViewController.swift */; };
+		8A1467AD19E12147002F6926 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A1467AC19E12147002F6926 /* Main.storyboard */; };
 		8A4BEFB919DE3EF500DBFEC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BEFB819DE3EF500DBFEC7 /* AppDelegate.swift */; };
-		8A4BEFC019DE3EF500DBFEC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A4BEFBE19DE3EF500DBFEC7 /* Main.storyboard */; };
 		8A4BEFC219DE3EF500DBFEC7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A4BEFC119DE3EF500DBFEC7 /* Images.xcassets */; };
 		8A4BEFC519DE3EF500DBFEC7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4BEFC319DE3EF500DBFEC7 /* LaunchScreen.xib */; };
 		8A4BEFD119DE3EF500DBFEC7 /* SimpleReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BEFD019DE3EF500DBFEC7 /* SimpleReaderTests.swift */; };
@@ -31,10 +31,10 @@
 
 /* Begin PBXFileReference section */
 		8A1467A819DFC7FE002F6926 /* ArticleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
+		8A1467AC19E12147002F6926 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8A4BEFB319DE3EF500DBFEC7 /* SimpleReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A4BEFB719DE3EF500DBFEC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A4BEFB819DE3EF500DBFEC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8A4BEFBF19DE3EF500DBFEC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A4BEFC119DE3EF500DBFEC7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8A4BEFC419DE3EF500DBFEC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8A4BEFCA19DE3EF500DBFEC7 /* SimpleReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -185,7 +185,7 @@
 		8A4BEFE119DE50A500DBFEC7 /* storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				8A4BEFBE19DE3EF500DBFEC7 /* Main.storyboard */,
+				8A1467AC19E12147002F6926 /* Main.storyboard */,
 			);
 			path = storyboard;
 			sourceTree = "<group>";
@@ -278,7 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A4BEFC019DE3EF500DBFEC7 /* Main.storyboard in Resources */,
+				8A1467AD19E12147002F6926 /* Main.storyboard in Resources */,
 				8A4BEFC519DE3EF500DBFEC7 /* LaunchScreen.xib in Resources */,
 				8A4BEFEC19DEDCA900DBFEC7 /* newYorkTimes.json in Resources */,
 				8A4BEFC219DE3EF500DBFEC7 /* Images.xcassets in Resources */,
@@ -326,15 +326,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8A4BEFBE19DE3EF500DBFEC7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8A4BEFBF19DE3EF500DBFEC7 /* Base */,
-			);
-			name = Main.storyboard;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		8A4BEFC319DE3EF500DBFEC7 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
