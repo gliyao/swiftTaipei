@@ -8,10 +8,12 @@ swiftTaipei
 
 Setting page
 
-1. UITableViewController with static cells (basic and customize style).
-2. Connect views with IBOutlet and change its property value.
-3. Simple autolayout (pin view in center of viewController)
-4. Simple class SRAuthor to setup author page
+1. Embed in UINavigationController (two ways)
+2. UITableViewController with static cells (basic and customize style).
+3. Create show segue with control + drag from cell
+4. Connect views with IBOutlet and change its property value.
+5. Simple autolayout (pin view in center of viewController)
+6. Simple class SRAuthor to setup author page
 
 Airtile list page
 
