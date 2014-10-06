@@ -38,4 +38,22 @@ class ArticleViewController: UIViewController, UIWebViewDelegate {
     func webView(webView: UIWebView, didFailLoadWithError error: NSError) {
         indicator.stopAnimating()
     }
+    
+    
+    @IBAction func share(sender: AnyObject)
+    {
+        // Make url String to NSURL
+        let url = NSURL.URLWithString(web_url)
+        
+        // Create activityViewController with it
+        // 1st param are things you want to share
+        // 2ed param are customize activities
+        let activityViewController = UIActivityViewController(activityItems: [url], applicationActivities: nil)
+        
+        // We don't want post it on Weibo
+        activityViewController.excludedActivityTypes = [UIActivityTypePostToWeibo, UIActivityTypePostToTencentWeibo]
+        
+        // Present the controller
+        self.presentViewController(activityViewController, animated: true, completion: nil)
+    }
 }

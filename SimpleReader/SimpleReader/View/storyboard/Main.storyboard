@@ -63,7 +63,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oeu-Nz-gc8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1492" y="-3844"/>
+            <point key="canvasLocation" x="1494" y="-3815"/>
         </scene>
         <!--Privacy Policy-->
         <scene sceneID="Joj-L6-2rU">
@@ -162,7 +162,7 @@
             </objects>
             <point key="canvasLocation" x="802" y="-3844"/>
         </scene>
-        <!--Root View Controller-->
+        <!--News-->
         <scene sceneID="1O2-kq-tIA">
             <objects>
                 <tableViewController id="rwq-Ih-f6i" customClass="ArticleListViewController" customModule="SimpleReader" customModuleProvider="target" sceneMemberID="viewController">
@@ -200,7 +200,7 @@
                             <outlet property="delegate" destination="rwq-Ih-f6i" id="gDR-Wk-YZ5"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="xn3-RP-W6Q"/>
+                    <navigationItem key="navigationItem" title="News" id="xn3-RP-W6Q"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="95Y-1Z-CaT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -239,7 +239,13 @@
                             <constraint firstAttribute="bottom" secondItem="BKm-i2-8pW" secondAttribute="bottom" id="tPR-Ob-jdN"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Article View Controller" id="P70-cM-Gn8"/>
+                    <navigationItem key="navigationItem" title="Article View Controller" id="P70-cM-Gn8">
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="2gZ-0L-WGS">
+                            <connections>
+                                <action selector="share:" destination="rjE-UR-imt" id="OM4-Qc-EFM"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="indicator" destination="hbd-5x-reb" id="fxA-Vr-fSL"/>
                         <outlet property="webView" destination="BKm-i2-8pW" id="Tj1-qS-LP1"/>

@@ -1,0 +1,868 @@
+{
+    "response": {
+        "meta": {
+            "hits": 15351897,
+            "time": 165,
+            "offset": 0
+        },
+        "docs": [{
+            "web_url": "http:\/\/www.nytimes.com\/2014\/10\/30\/upshot\/democrats-are-spending-more-on-the-ground-in-key-senate-races.html",
+            "snippet": "In more competitive states, Republican spending has tended to focus on broadcast advertisements and direct mail.",
+            "lead_paragraph": "In more competitive states, Republican spending has tended to focus on broadcast advertisements and direct mail.",
+            "abstract": "The Upshot; Democrats, with strong possibility that they could lose control of Senate in midterm elections, are investing heavily in voter turnout efforts in key states, making much greater investments in the ground game than Republicans.",
+            "print_page": "3",
+            "blog": [],
+            "source": "The New York Times",
+            "multimedia": [{
+                "width": 190,
+                "url": "images\/2014\/09\/30\/upshot\/30up-groundgame\/30up-groundgame-thumbWide.jpg",
+                "height": 126,
+                "subtype": "wide",
+                "legacy": {
+                    "wide": "images\/2014\/09\/30\/upshot\/30up-groundgame\/30up-groundgame-thumbWide.jpg",
+                    "wideheight": "126",
+                    "widewidth": "190"
+                },
+                "type": "image"
+            }, {
+                "width": 600,
+                "url": "images\/2014\/09\/30\/upshot\/30up-groundgame\/30up-groundgame-articleLarge.jpg",
+                "height": 404,
+                "subtype": "xlarge",
+                "legacy": {
+                    "xlargewidth": "600",
+                    "xlarge": "images\/2014\/09\/30\/upshot\/30up-groundgame\/30up-groundgame-articleLarge.jpg",
+                    "xlargeheight": "404"
+                },
+                "type": "image"
+            }, {
+                "width": 75,
+                "url": "images\/2014\/09\/30\/upshot\/30up-groundgame\/30up-groundgame-thumbStandard.jpg",
+                "height": 75,
+                "subtype": "thumbnail",
+                "legacy": {
+                    "thumbnailheight": "75",
+                    "thumbnail": "images\/2014\/09\/30\/upshot\/30up-groundgame\/30up-groundgame-thumbStandard.jpg",
+                    "thumbnailwidth": "75"
+                },
+                "type": "image"
+            }],
+            "headline": {
+                "main": "Democrats Are Spending More on the Ground in Key Senate Races",
+                "content_kicker": "Field Operations",
+                "kicker": "The Upshot",
+                "print_headline": "Democrats Spend More on Ground in Key Senate Races"
+            },
+            "keywords": [{
+                "rank": "1",
+                "is_major": "Y",
+                "name": "glocations",
+                "value": "United States"
+            }, {
+                "rank": "11",
+                "is_major": "N",
+                "name": "glocations",
+                "value": "Colorado"
+            }, {
+                "rank": "12",
+                "is_major": "N",
+                "name": "organizations",
+                "value": "Democratic Party"
+            }, {
+                "rank": "2",
+                "is_major": "Y",
+                "name": "subject",
+                "value": "Campaign Finance"
+            }, {
+                "rank": "3",
+                "is_major": "Y",
+                "name": "subject",
+                "value": "Political Advertising"
+            }, {
+                "rank": "4",
+                "is_major": "N",
+                "name": "subject",
+                "value": "Elections, Senate"
+            }, {
+                "rank": "5",
+                "is_major": "N",
+                "name": "subject",
+                "value": "Midterm Elections (2014)"
+            }, {
+                "rank": "6",
+                "is_major": "N",
+                "name": "subject",
+                "value": "United States Politics and Government"
+            }, {
+                "rank": "7",
+                "is_major": "N",
+                "name": "glocations",
+                "value": "Michigan"
+            }, {
+                "rank": "8",
+                "is_major": "N",
+                "name": "glocations",
+                "value": "Iowa"
+            }, {
+                "rank": "9",
+                "is_major": "N",
+                "name": "glocations",
+                "value": "North Carolina"
+            }, {
+                "rank": "10",
+                "is_major": "N",
+                "name": "glocations",
+                "value": "Alaska"
+            }],
+            "pub_date": "2014-10-30T00:00:00Z",
+            "document_type": "article",
+            "news_desk": "Business",
+            "section_name": "The Upshot",
+            "subsection_name": null,
+            "byline": {
+                "contributor": "",
+                "person": [{
+                    "organization": "",
+                    "role": "reported",
+                    "firstname": "Derek",
+                    "rank": 1,
+                    "lastname": "WILLIS"
+                }],
+                "original": "By DEREK WILLIS"
+            },
+            "type_of_material": "News",
+            "_id": "542a2e5079881047c67313b3",
+            "word_count": "924"
+        }, {
+            "web_url": "http:\/\/www.nytimes.com\/2014\/10\/08\/dining\/wine-school-champagne.html",
+            "snippet": "Let\u2019s examine Champagne as a wine, an agricultural product made of grapes and intended not as the life of the party but to be consumed with food at a meal.",
+            "lead_paragraph": "Let\u2019s examine Champagne as a wine, an agricultural product made of grapes and intended not as the life of the party but to be consumed with food at a meal.",
+            "abstract": null,
+            "print_page": null,
+            "blog": [],
+            "source": "The New York Times",
+            "multimedia": [{
+                "width": 190,
+                "url": "images\/2014\/10\/08\/dining\/08WINESCHOOL\/08WINESCHOOL-thumbWide.jpg",
+                "height": 126,
+                "subtype": "wide",
+                "legacy": {
+                    "wide": "images\/2014\/10\/08\/dining\/08WINESCHOOL\/08WINESCHOOL-thumbWide.jpg",
+                    "wideheight": "126",
+                    "widewidth": "190"
+                },
+                "type": "image"
+            }, {
+                "width": 600,
+                "url": "images\/2014\/10\/08\/dining\/08WINESCHOOL\/08WINESCHOOL-articleLarge.jpg",
+                "height": 694,
+                "subtype": "xlarge",
+                "legacy": {
+                    "xlargewidth": "600",
+                    "xlarge": "images\/2014\/10\/08\/dining\/08WINESCHOOL\/08WINESCHOOL-articleLarge.jpg",
+                    "xlargeheight": "694"
+                },
+                "type": "image"
+            }, {
+                "width": 75,
+                "url": "images\/2014\/10\/08\/dining\/08WINESCHOOL\/08WINESCHOOL-thumbStandard.jpg",
+                "height": 75,
+                "subtype": "thumbnail",
+                "legacy": {
+                    "thumbnailheight": "75",
+                    "thumbnail": "images\/2014\/10\/08\/dining\/08WINESCHOOL\/08WINESCHOOL-thumbStandard.jpg",
+                    "thumbnailwidth": "75"
+                },
+                "type": "image"
+            }],
+            "headline": {
+                "seo": "Wine School: Champagne",
+                "main": "Your Next Lesson: Champagne",
+                "content_kicker": "Wine School"
+            },
+            "keywords": [{
+                "rank": "1",
+                "is_major": "N",
+                "name": "subject",
+                "value": "Champagne (Wine)"
+            }, {
+                "rank": "2",
+                "is_major": "N",
+                "name": "subject",
+                "value": "Wines"
+            }],
+            "pub_date": "2014-10-08T00:00:00Z",
+            "document_type": "article",
+            "news_desk": "Dining",
+            "section_name": "Dining & Wine",
+            "subsection_name": null,
+            "byline": {
+                "person": [{
+                    "organization": "",
+                    "role": "reported",
+                    "firstname": "Eric",
+                    "rank": 1,
+                    "lastname": "ASIMOV"
+                }],
+                "original": "By ERIC ASIMOV"
+            },
+            "type_of_material": "News",
+            "_id": "542dcf8e7988102b329b6c5a",
+            "word_count": "566"
+        }, {
+            "web_url": "http:\/\/www.nytimes.com\/2014\/10\/08\/dining\/rice-and-noodles-in-many-guises-.html",
+            "snippet": "The menu at Com Tam Ninh Kieu in the Bronx focuses on broken-rice dishes and noodle soups.",
+            "lead_paragraph": "The menu at Com Tam Ninh Kieu in the Bronx focuses on broken-rice dishes and noodle soups.",
+            "abstract": null,
+            "print_page": null,
+            "blog": [],
+            "source": "The New York Times",
+            "multimedia": [{
+                "width": 190,
+                "url": "images\/2014\/10\/04\/dining\/20141008-HUNGRY-slide-EG3L\/20141008-HUNGRY-slide-EG3L-thumbWide.jpg",
+                "height": 126,
+                "subtype": "wide",
+                "legacy": {
+                    "wide": "images\/2014\/10\/04\/dining\/20141008-HUNGRY-slide-EG3L\/20141008-HUNGRY-slide-EG3L-thumbWide.jpg",
+                    "wideheight": "126",
+                    "widewidth": "190"
+                },
+                "type": "image"
+            }, {
+                "width": 600,
+                "url": "images\/2014\/10\/04\/dining\/20141008-HUNGRY-slide-EG3L\/20141008-HUNGRY-slide-EG3L-articleLarge.jpg",
+                "height": 400,
+                "subtype": "xlarge",
+                "legacy": {
+                    "xlargewidth": "600",
+                    "xlarge": "images\/2014\/10\/04\/dining\/20141008-HUNGRY-slide-EG3L\/20141008-HUNGRY-slide-EG3L-articleLarge.jpg",
+                    "xlargeheight": "400"
+                },
+                "type": "image"
+            }, {
+                "width": 75,
+                "url": "images\/2014\/10\/04\/dining\/20141008-HUNGRY-slide-EG3L\/20141008-HUNGRY-slide-EG3L-thumbStandard.jpg",
+                "height": 75,
+                "subtype": "thumbnail",
+                "legacy": {
+                    "thumbnailheight": "75",
+                    "thumbnail": "images\/2014\/10\/04\/dining\/20141008-HUNGRY-slide-EG3L\/20141008-HUNGRY-slide-EG3L-thumbStandard.jpg",
+                    "thumbnailwidth": "75"
+                },
+                "type": "image"
+            }],
+            "headline": {
+                "seo": "Hungry City: Com Tam Ninh Kieu in the Bronx",
+                "main": "Rice and Noodles in Many Guises",
+                "kicker": "Hungry City | Com Tam Ninh Kieu",
+                "print_headline": "Rice and Noodles in Many Guises "
+            },
+            "keywords": [{
+                "rank": "1",
+                "is_major": "N",
+                "name": "glocations",
+                "value": "Bronx (NYC)"
+            }],
+            "pub_date": "2014-10-08T00:00:00Z",
+            "document_type": "article",
+            "news_desk": "Dining",
+            "section_name": "Dining & Wine",
+            "subsection_name": null,
+            "byline": {
+                "person": [{
+                    "organization": "",
+                    "role": "reported",
+                    "firstname": "Ligaya",
+                    "rank": 1,
+                    "lastname": "MISHAN"
+                }],
+                "original": "By LIGAYA MISHAN"
+            },
+            "type_of_material": "Review",
+            "_id": "542dab5d7988102b329b6bd9",
+            "word_count": "707"
+        }, {
+            "web_url": "http:\/\/www.nytimes.com\/2014\/10\/02\/science\/the-evolution-of-sleep-700-million-years-of-melatonin.html",
+            "snippet": "A new study suggests that humans\u2019 melatonin-driven sleep cycles started some 700 million years ago, in worms.",
+            "lead_paragraph": "A new study suggests that humans\u2019 melatonin-driven sleep cycles started some 700 million years ago, in worms.",
+            "abstract": null,
+            "print_page": null,
+            "blog": [],
+            "source": "The New York Times",
+            "multimedia": [{
+                "width": 190,
+                "url": "images\/2014\/10\/02\/science\/02zimmer\/02zimmer-thumbWide.jpg",
+                "height": 126,
+                "subtype": "wide",
+                "legacy": {
+                    "wide": "images\/2014\/10\/02\/science\/02zimmer\/02zimmer-thumbWide.jpg",
+                    "wideheight": "126",
+                    "widewidth": "190"
+                },
+                "type": "image"
+            }, {
+                "width": 600,
+                "url": "images\/2014\/10\/02\/science\/02zimmer\/02zimmer-articleLarge.jpg",
+                "height": 600,
+                "subtype": "xlarge",
+                "legacy": {
+                    "xlargewidth": "600",
+                    "xlarge": "images\/2014\/10\/02\/science\/02zimmer\/02zimmer-articleLarge.jpg",
+                    "xlargeheight": "600"
+                },
+                "type": "image"
+            }, {
+                "width": 75,
+                "url": "images\/2014\/10\/02\/science\/02zimmer\/02zimmer-thumbStandard.jpg",
+                "height": 75,
+                "subtype": "thumbnail",
+                "legacy": {
+                    "thumbnailheight": "75",
+                    "thumbnail": "images\/2014\/10\/02\/science\/02zimmer\/02zimmer-thumbStandard.jpg",
+                    "thumbnailwidth": "75"
+                },
+                "type": "image"
+            }],
+            "headline": {
+                "main": "The Evolution of Sleep: 700 Million Years of Melatonin",
+                "content_kicker": "Matter"
+            },
+            "keywords": [{
+                "rank": "1",
+                "is_major": "N",
+                "name": "subject",
+                "value": "Sleep"
+            }, {
+                "rank": "2",
+                "is_major": "N",
+                "name": "subject",
+                "value": "Melatonin (Hormone)"
+            }, {
+                "rank": "3",
+                "is_major": "N",
+                "name": "subject",
+                "value": "Worms"
+            }, {
+                "rank": "4",
+                "is_major": "N",
+                "name": "subject",
+                "value": "Science and Technology"
+            }, {
+                "rank": "5",
+                "is_major": "N",
+                "name": "subject",
+                "value": "Genetics and Heredity"
+            }, {
+                "rank": "6",
+                "is_major": "N",
+                "name": "persons",
+                "value": "Arendt, Detlev"
+            }, {
+                "rank": "7",
+                "is_major": "N",
+                "name": "persons",
+                "value": "Tosches, Maria Antonietta"
+            }],
+            "pub_date": "2014-10-07T00:00:00Z",
+            "document_type": "article",
+            "news_desk": "Science",
+            "section_name": "Science",
+            "subsection_name": null,
+            "byline": {
+                "person": [{
+                    "organization": "",
+                    "role": "reported",
+                    "firstname": "Carl",
+                    "rank": 1,
+                    "lastname": "ZIMMER"
+                }],
+                "original": "By CARL ZIMMER"
+            },
+            "type_of_material": "News",
+            "_id": "542d141b7988105a9b09f8d3",
+            "word_count": "905"
+        }, {
+            "web_url": "http:\/\/www.nytimes.com\/2014\/10\/07\/science\/why-some-monarch-butterflies-are-marathoners.html",
+            "snippet": "Researchers find a gene that plays a critical role in determining whether monarchs are migratory, along with details about their origins and coloring.",
+            "lead_paragraph": "Researchers find a gene that plays a critical role in determining whether monarchs are migratory, along with details about their origins and coloring.",
+            "abstract": null,
+            "print_page": "",
+            "blog": [],
+            "source": "The New York Times",
+            "multimedia": [{
+                "width": 190,
+                "url": "images\/2014\/10\/07\/science\/07butterfly\/07butterfly-thumbWide.jpg",
+                "height": 126,
+                "subtype": "wide",
+                "legacy": {
+                    "wide": "images\/2014\/10\/07\/science\/07butterfly\/07butterfly-thumbWide.jpg",
+                    "wideheight": "126",
+                    "widewidth": "190"
+                },
+                "type": "image"
+            }, {
+                "width": 600,
+                "url": "images\/2014\/10\/07\/science\/07butterfly\/07butterfly-articleLarge.jpg",
+                "height": 419,
+                "subtype": "xlarge",
+                "legacy": {
+                    "xlargewidth": "600",
+                    "xlarge": "images\/2014\/10\/07\/science\/07butterfly\/07butterfly-articleLarge.jpg",
+                    "xlargeheight": "419"
+                },
+                "type": "image"
+            }, {
+                "width": 75,
+                "url": "images\/2014\/10\/07\/science\/07butterfly\/07butterfly-thumbStandard.jpg",
+                "height": 75,
+                "subtype": "thumbnail",
+                "legacy": {
+                    "thumbnailheight": "75",
+                    "thumbnail": "images\/2014\/10\/07\/science\/07butterfly\/07butterfly-thumbStandard.jpg",
+                    "thumbnailwidth": "75"
+                },
+                "type": "image"
+            }],
+            "headline": {
+                "main": "Why Some Monarch Butterflies Are Marathoners",
+                "content_kicker": "Observatory",
+                "kicker": "Observatory"
+            },
+            "keywords": [{
+                "rank": "1",
+                "is_major": "N",
+                "name": "subject",
+                "value": "Butterflies and Moths"
+            }, {
+                "rank": "2",
+                "is_major": "N",
+                "name": "subject",
+                "value": "Genetics and Heredity"
+            }, {
+                "rank": "3",
+                "is_major": "N",
+                "name": "subject",
+                "value": "Animal Migration"
+            }],
+            "pub_date": "2014-10-07T00:00:00Z",
+            "document_type": "article",
+            "news_desk": "Science",
+            "section_name": "Science",
+            "subsection_name": null,
+            "byline": {
+                "person": [{
+                    "firstname": "Sindya",
+                    "middlename": "N.",
+                    "lastname": "BHANOO",
+                    "rank": 1,
+                    "role": "reported",
+                    "organization": ""
+                }],
+                "original": "By SINDYA N. BHANOO"
+            },
+            "type_of_material": "News",
+            "_id": "542c331f7988105a9b09f615",
+            "word_count": "251"
+        }, {
+            "web_url": "http:\/\/www.nytimes.com\/2014\/10\/05\/arts\/dance\/wendy-whelan-says-farewell-to-city-ballet.html",
+            "snippet": "Wendy Whelan, a principal dancer with New York City Ballet, will give her farewell performance on Oct. 18.",
+            "lead_paragraph": "Wendy Whelan, a principal dancer with New York City Ballet, will give her farewell performance on Oct. 18.",
+            "abstract": null,
+            "print_page": null,
+            "blog": [],
+            "source": "The New York Times",
+            "multimedia": [{
+                "width": 190,
+                "url": "images\/2014\/10\/05\/arts\/05WHELAN\/05WHELAN-thumbWide.jpg",
+                "height": 126,
+                "subtype": "wide",
+                "legacy": {
+                    "wide": "images\/2014\/10\/05\/arts\/05WHELAN\/05WHELAN-thumbWide.jpg",
+                    "wideheight": "126",
+                    "widewidth": "190"
+                },
+                "type": "image"
+            }, {
+                "width": 600,
+                "url": "images\/2014\/10\/05\/arts\/05WHELAN\/05WHELAN-articleLarge.jpg",
+                "height": 396,
+                "subtype": "xlarge",
+                "legacy": {
+                    "xlargewidth": "600",
+                    "xlarge": "images\/2014\/10\/05\/arts\/05WHELAN\/05WHELAN-articleLarge.jpg",
+                    "xlargeheight": "396"
+                },
+                "type": "image"
+            }, {
+                "width": 75,
+                "url": "images\/2014\/10\/05\/arts\/05WHELAN\/05WHELAN-thumbStandard.jpg",
+                "height": 75,
+                "subtype": "thumbnail",
+                "legacy": {
+                    "thumbnailheight": "75",
+                    "thumbnail": "images\/2014\/10\/05\/arts\/05WHELAN\/05WHELAN-thumbStandard.jpg",
+                    "thumbnailwidth": "75"
+                },
+                "type": "image"
+            }],
+            "headline": {
+                "seo": "Wendy Whelan Says Farewell to City Ballet",
+                "main": "A Muse Steps Away ",
+                "print_headline": "A Muse Steps Away "
+            },
+            "keywords": [{
+                "rank": "1",
+                "is_major": "N",
+                "name": "subject",
+                "value": "Dancing"
+            }, {
+                "rank": "2",
+                "is_major": "N",
+                "name": "persons",
+                "value": "Whelan, Wendy"
+            }, {
+                "rank": "3",
+                "is_major": "N",
+                "name": "organizations",
+                "value": "New York City Ballet"
+            }],
+            "pub_date": "2014-10-05T00:00:00Z",
+            "document_type": "article",
+            "news_desk": "Arts&Leisure",
+            "section_name": "Arts",
+            "subsection_name": "Dance",
+            "byline": {
+                "person": [{
+                    "organization": "",
+                    "role": "reported",
+                    "firstname": "Roslyn",
+                    "rank": 1,
+                    "lastname": "SULCAS"
+                }],
+                "original": "By ROSLYN SULCAS"
+            },
+            "type_of_material": "News",
+            "_id": "542e8fcc7988102b329b6e6a",
+            "word_count": "1821"
+        }, {
+            "web_url": "http:\/\/www.nytimes.com\/2014\/10\/05\/upshot\/six-years-later-were-still-litigating-the-bailouts-heres-what-we-know.html",
+            "snippet": "With the economy still not fully recovered from the financial crisis, old arguments can still seem relevant today.",
+            "lead_paragraph": "With the economy still not fully recovered from the financial crisis, old arguments can still seem relevant today.",
+            "abstract": null,
+            "print_page": null,
+            "blog": [],
+            "source": "The New York Times",
+            "multimedia": [{
+                "width": 190,
+                "url": "images\/2014\/10\/03\/upshot\/05UP-BAILOUTS\/05UP-BAILOUTS-thumbWide.jpg",
+                "height": 126,
+                "subtype": "wide",
+                "legacy": {
+                    "wide": "images\/2014\/10\/03\/upshot\/05UP-BAILOUTS\/05UP-BAILOUTS-thumbWide.jpg",
+                    "wideheight": "126",
+                    "widewidth": "190"
+                },
+                "type": "image"
+            }, {
+                "width": 600,
+                "url": "images\/2014\/10\/03\/upshot\/05UP-BAILOUTS\/05UP-BAILOUTS-articleLarge.jpg",
+                "height": 446,
+                "subtype": "xlarge",
+                "legacy": {
+                    "xlargewidth": "600",
+                    "xlarge": "images\/2014\/10\/03\/upshot\/05UP-BAILOUTS\/05UP-BAILOUTS-articleLarge.jpg",
+                    "xlargeheight": "446"
+                },
+                "type": "image"
+            }, {
+                "width": 75,
+                "url": "images\/2014\/10\/03\/upshot\/05UP-BAILOUTS\/05UP-BAILOUTS-thumbStandard.jpg",
+                "height": 75,
+                "subtype": "thumbnail",
+                "legacy": {
+                    "thumbnailheight": "75",
+                    "thumbnail": "images\/2014\/10\/03\/upshot\/05UP-BAILOUTS\/05UP-BAILOUTS-thumbStandard.jpg",
+                    "thumbnailwidth": "75"
+                },
+                "type": "image"
+            }],
+            "headline": {
+                "main": "Six Years Later, We\u2019re Still Litigating the Bailouts. Here\u2019s What We Know.",
+                "content_kicker": "In Hindsight",
+                "kicker": "The Upshot"
+            },
+            "keywords": [{
+                "rank": "1",
+                "is_major": "N",
+                "name": "subject",
+                "value": "Subprime Mortgage Crisis"
+            }, {
+                "rank": "2",
+                "is_major": "N",
+                "name": "subject",
+                "value": "Banking and Financial Institutions"
+            }, {
+                "rank": "3",
+                "is_major": "N",
+                "name": "subject",
+                "value": "United States Economy"
+            }, {
+                "rank": "4",
+                "is_major": "N",
+                "name": "subject",
+                "value": "Recession and Depression"
+            }, {
+                "rank": "5",
+                "is_major": "N",
+                "name": "organizations",
+                "value": "Lehman Brothers Holdings Inc"
+            }, {
+                "rank": "6",
+                "is_major": "N",
+                "name": "organizations",
+                "value": "American International Group Inc"
+            }, {
+                "rank": "7",
+                "is_major": "N",
+                "name": "persons",
+                "value": "Bernanke, Ben S"
+            }, {
+                "rank": "8",
+                "is_major": "N",
+                "name": "persons",
+                "value": "Geithner, Timothy F"
+            }, {
+                "rank": "9",
+                "is_major": "N",
+                "name": "subject",
+                "value": "Emergency Economic Stabilization Act (2008)"
+            }, {
+                "rank": "10",
+                "is_major": "N",
+                "name": "subject",
+                "value": "Nationalization of Industry"
+            }],
+            "pub_date": "2014-10-05T00:00:00Z",
+            "document_type": "article",
+            "news_desk": "Upshot",
+            "section_name": "The Upshot",
+            "subsection_name": null,
+            "byline": {
+                "person": [{
+                    "organization": "",
+                    "role": "reported",
+                    "firstname": "Neil",
+                    "rank": 1,
+                    "lastname": "IRWIN"
+                }],
+                "original": "By NEIL IRWIN"
+            },
+            "type_of_material": "News",
+            "_id": "542e81b97988102b329b6e45",
+            "word_count": "1474"
+        }, {
+            "web_url": "http:\/\/www.nytimes.com\/2014\/10\/05\/nyregion\/events-in-westchester-for-oct-5-11-2014.html",
+            "snippet": "A guide to cultural and recreational events in the Hudson Valley.",
+            "lead_paragraph": "A guide to cultural and recreational events in the Hudson Valley.",
+            "abstract": null,
+            "print_page": "8",
+            "blog": [],
+            "source": "The New York Times",
+            "multimedia": [{
+                "width": 190,
+                "url": "images\/2014\/10\/05\/nyregion\/05HIWE1\/05HIWE1-thumbWide.jpg",
+                "height": 126,
+                "subtype": "wide",
+                "legacy": {
+                    "wide": "images\/2014\/10\/05\/nyregion\/05HIWE1\/05HIWE1-thumbWide.jpg",
+                    "wideheight": "126",
+                    "widewidth": "190"
+                },
+                "type": "image"
+            }, {
+                "width": 600,
+                "url": "images\/2014\/10\/05\/nyregion\/05HIWE1\/05HIWE1-articleLarge.jpg",
+                "height": 397,
+                "subtype": "xlarge",
+                "legacy": {
+                    "xlargewidth": "600",
+                    "xlarge": "images\/2014\/10\/05\/nyregion\/05HIWE1\/05HIWE1-articleLarge.jpg",
+                    "xlargeheight": "397"
+                },
+                "type": "image"
+            }, {
+                "width": 75,
+                "url": "images\/2014\/10\/05\/nyregion\/05HIWE1\/05HIWE1-thumbStandard.jpg",
+                "height": 75,
+                "subtype": "thumbnail",
+                "legacy": {
+                    "thumbnailheight": "75",
+                    "thumbnail": "images\/2014\/10\/05\/nyregion\/05HIWE1\/05HIWE1-thumbStandard.jpg",
+                    "thumbnailwidth": "75"
+                },
+                "type": "image"
+            }],
+            "headline": {
+                "main": "Events in Westchester for Oct. 5-11, 2014",
+                "content_kicker": "Calendar",
+                "print_headline": "Westchester"
+            },
+            "keywords": [{
+                "rank": "1",
+                "is_major": "N",
+                "name": "subject",
+                "value": "Culture (Arts)"
+            }, {
+                "rank": "2",
+                "is_major": "N",
+                "name": "glocations",
+                "value": "Westchester County (NY)"
+            }],
+            "pub_date": "2014-10-05T00:00:00Z",
+            "document_type": "article",
+            "news_desk": "Metro",
+            "section_name": "N.Y. \/ Region",
+            "subsection_name": null,
+            "byline": [],
+            "type_of_material": "Schedule",
+            "_id": "542dff0f7988102b329b6d1f",
+            "word_count": "4915"
+        }, {
+            "web_url": "http:\/\/www.nytimes.com\/2014\/10\/05\/nyregion\/events-in-connecticut-for-oct-5-11-2014.html",
+            "snippet": "A guide to cultural and recreational events in Connecticut.",
+            "lead_paragraph": "A guide to cultural and recreational events in Connecticut.",
+            "abstract": null,
+            "print_page": "8",
+            "blog": [],
+            "source": "The New York Times",
+            "multimedia": [{
+                "width": 190,
+                "url": "images\/2014\/10\/05\/nyregion\/05HICT1\/05HICT1-thumbWide.jpg",
+                "height": 126,
+                "subtype": "wide",
+                "legacy": {
+                    "wide": "images\/2014\/10\/05\/nyregion\/05HICT1\/05HICT1-thumbWide.jpg",
+                    "wideheight": "126",
+                    "widewidth": "190"
+                },
+                "type": "image"
+            }, {
+                "width": 600,
+                "url": "images\/2014\/10\/05\/nyregion\/05HICT1\/05HICT1-articleLarge.jpg",
+                "height": 399,
+                "subtype": "xlarge",
+                "legacy": {
+                    "xlargewidth": "600",
+                    "xlarge": "images\/2014\/10\/05\/nyregion\/05HICT1\/05HICT1-articleLarge.jpg",
+                    "xlargeheight": "399"
+                },
+                "type": "image"
+            }, {
+                "width": 75,
+                "url": "images\/2014\/10\/05\/nyregion\/05HICT1\/05HICT1-thumbStandard.jpg",
+                "height": 75,
+                "subtype": "thumbnail",
+                "legacy": {
+                    "thumbnailheight": "75",
+                    "thumbnail": "images\/2014\/10\/05\/nyregion\/05HICT1\/05HICT1-thumbStandard.jpg",
+                    "thumbnailwidth": "75"
+                },
+                "type": "image"
+            }],
+            "headline": {
+                "main": "Events in Connecticut for Oct 5-11, 2014",
+                "content_kicker": "Calendar",
+                "print_headline": "Connecticut"
+            },
+            "keywords": [{
+                "rank": "1",
+                "is_major": "N",
+                "name": "subject",
+                "value": "Culture (Arts)"
+            }, {
+                "rank": "2",
+                "is_major": "N",
+                "name": "glocations",
+                "value": "Connecticut"
+            }],
+            "pub_date": "2014-10-05T00:00:00Z",
+            "document_type": "article",
+            "news_desk": "Metro",
+            "section_name": "N.Y. \/ Region",
+            "subsection_name": null,
+            "byline": [],
+            "type_of_material": "Schedule",
+            "_id": "542dfcc57988102b329b6d1a",
+            "word_count": "4620"
+        }, {
+            "web_url": "http:\/\/www.nytimes.com\/2014\/10\/05\/nyregion\/events-on-long-island-for-oct-5-11-2014.html",
+            "snippet": "A guide to cultural and recreational events on Long Island.",
+            "lead_paragraph": "A guide to cultural and recreational events on Long Island.",
+            "abstract": null,
+            "print_page": "8",
+            "blog": [],
+            "source": "The New York Times",
+            "multimedia": [{
+                "width": 190,
+                "url": "images\/2014\/10\/05\/nyregion\/05HILI3\/05HILI3-thumbWide.jpg",
+                "height": 126,
+                "subtype": "wide",
+                "legacy": {
+                    "wide": "images\/2014\/10\/05\/nyregion\/05HILI3\/05HILI3-thumbWide.jpg",
+                    "wideheight": "126",
+                    "widewidth": "190"
+                },
+                "type": "image"
+            }, {
+                "width": 600,
+                "url": "images\/2014\/10\/05\/nyregion\/05HILI3\/05HILI3-articleLarge.jpg",
+                "height": 420,
+                "subtype": "xlarge",
+                "legacy": {
+                    "xlargewidth": "600",
+                    "xlarge": "images\/2014\/10\/05\/nyregion\/05HILI3\/05HILI3-articleLarge.jpg",
+                    "xlargeheight": "420"
+                },
+                "type": "image"
+            }, {
+                "width": 75,
+                "url": "images\/2014\/10\/05\/nyregion\/05HILI3\/05HILI3-thumbStandard.jpg",
+                "height": 75,
+                "subtype": "thumbnail",
+                "legacy": {
+                    "thumbnailheight": "75",
+                    "thumbnail": "images\/2014\/10\/05\/nyregion\/05HILI3\/05HILI3-thumbStandard.jpg",
+                    "thumbnailwidth": "75"
+                },
+                "type": "image"
+            }],
+            "headline": {
+                "main": "Events on Long Island for Oct 5-11, 2014",
+                "content_kicker": "Calendar",
+                "print_headline": "Long Island"
+            },
+            "keywords": [{
+                "rank": "1",
+                "is_major": "N",
+                "name": "subject",
+                "value": "Culture (Arts)"
+            }, {
+                "rank": "2",
+                "is_major": "N",
+                "name": "glocations",
+                "value": "Long Island (NY)"
+            }],
+            "pub_date": "2014-10-05T00:00:00Z",
+            "document_type": "article",
+            "news_desk": "Metro",
+            "section_name": "N.Y. \/ Region",
+            "subsection_name": null,
+            "byline": [],
+            "type_of_material": "List",
+            "_id": "542df4a27988102b329b6d05",
+            "word_count": "2799"
+        }]
+    },
+    "status": "OK",
+    "copyright": "Copyright (c) 2013 The New York Times Company.  All Rights Reserved."
+}
