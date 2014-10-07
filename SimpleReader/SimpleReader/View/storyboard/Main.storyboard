@@ -209,7 +209,7 @@
         <!--Article View Controller-->
         <scene sceneID="VuD-gk-nFG">
             <objects>
-                <viewController id="rjE-UR-imt" customClass="ArticleViewController" customModule="SimpleReader" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController hidesBottomBarWhenPushed="YES" id="rjE-UR-imt" customClass="ArticleViewController" customModule="SimpleReader" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="MWA-gU-YgD"/>
                         <viewControllerLayoutGuide type="bottom" id="Inc-7V-URN"/>
