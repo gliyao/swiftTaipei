@@ -8,10 +8,25 @@
 
 import UIKit
 
-class AboutViewController: UIViewController {
+@IBDesignable class AboutViewController: UIViewController {
 
-    @IBOutlet weak var authorImageView: UIImageView!
+
+    @IBInspectable @IBOutlet weak var authorImageView: UIImageView!
+    
     @IBOutlet weak var authorNameLabel: UILabel!
+    
+    @IBOutlet weak var bView: UIView!
+    @IBInspectable var aColor: UIColor = UIColor.clearColor(){
+        didSet{
+            updateUI()
+        }
+    }
+    
+    func updateUI(){
+        bView.backgroundColor = aColor
+        self.view.backgroundColor = aColor
+    }
+    
     
     // MARK: LifeCycle
     override func viewDidLoad() {
