@@ -8,28 +8,15 @@
 
 import UIKit
 
-@IBDesignable class AboutViewController: UIViewController {
+@IBDesignable
+class AboutViewController: UIViewController {
 
-
-    @IBInspectable @IBOutlet weak var authorImageView: UIImageView!
-    
+    @IBOutlet weak var authorImageView: UIImageView!
     @IBOutlet weak var authorNameLabel: UILabel!
-    
-    @IBOutlet weak var bView: UIView!
-    @IBInspectable var aColor: UIColor = UIColor.clearColor(){
-        didSet{
-            updateUI()
-        }
-    }
-    
-    func updateUI(){
-        bView.backgroundColor = aColor
-        self.view.backgroundColor = aColor
-    }
     
     
     // MARK: LifeCycle
-    override func viewDidLoad() {
+    override func viewDidLoad(){
         super.viewDidLoad()
         
         // 1. Change author name to your name
