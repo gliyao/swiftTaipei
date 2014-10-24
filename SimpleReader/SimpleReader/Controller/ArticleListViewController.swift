@@ -26,9 +26,11 @@ class ArticleListViewController: UITableViewController
         super.viewDidLoad()
         
         // Read JSON file
+        var error: NSError?
         let path = NSBundle.mainBundle().pathForResource("newYorkTimes", ofType: "json")
-        let jsonData = NSData.dataWithContentsOfFile(path!, options: .DataReadingMappedIfSafe, error: nil)
-        let jsonResult: NSDictionary = NSJSONSerialization.JSONObjectWithData(jsonData, options: NSJSONReadingOptions.MutableContainers, error: nil) as NSDictionary
+        let jsonData: NSData = NSData.dataWithContentsOfMappedFile(path!) as NSData
+        let jsonResult:NSDictionary = NSJSONSerialization.JSONObjectWithData(jsonData, options:NSJSONReadingOptions.MutableContainers , error: &error) as NSDictionary
+        
         let response = jsonResult["response"] as NSDictionary
         
         docs = response["docs"] as NSArray
@@ -87,7 +89,7 @@ class ArticleListViewController: UITableViewController
         let pub_date = article["pub_date"] as String
         
         // 3. Setup date in cell
-        cell.textLabel?.text = snippet
+        cell.textLabel.text = snippet
 //        cell.textLabel?.text = "\(indexPath.row)" // snippet take to many words, try show index at textLabel
         cell.detailTextLabel?.text = pub_date
         

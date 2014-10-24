@@ -20,8 +20,8 @@ class ArticleViewController: UIViewController, UIWebViewDelegate {
         println("We got snippet = \(snippet)")
         println("We got web_url = \(web_url)")
         
-        let url = NSURL.URLWithString(web_url)
-        let request = NSURLRequest(URL: url)
+        let url = NSURL(string: web_url)
+        let request = NSURLRequest(URL: url!)
         webView.loadRequest(request)
     }
     
@@ -43,7 +43,7 @@ class ArticleViewController: UIViewController, UIWebViewDelegate {
     @IBAction func share(sender: AnyObject)
     {
         // Make url String to NSURL
-        let url = NSURL.URLWithString(web_url)
+        let url = NSURL(string: web_url)!
         
         // Create activityViewController with it
         // 1st param are things you want to share
